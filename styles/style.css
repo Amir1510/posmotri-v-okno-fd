@@ -115,7 +115,6 @@ ol {
   border: 1px solid #fff;
 }
 
-
 .search-form__label {
   cursor: pointer;
   display: flex;
@@ -136,7 +135,6 @@ ol {
 .search-form__checkbox:active + .search-form__pseudo-checkbox::before {
   display: block;
 }
-
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
@@ -212,13 +210,13 @@ ol {
   margin: auto;
 }
 
-.content__list-item:not(:last-child) {
-  margin-bottom: 30px;
-}
-
 .content__video-card {
   display: flex;
   align-items: start;
+}
+
+.content__list-item:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .content__video-card-thumbnail {
