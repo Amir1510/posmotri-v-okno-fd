@@ -120,6 +120,14 @@ ol {
   outline: none;
 }
 
+
+.search-form__label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
 .search-form__pseudo-checkbox {
   position: relative;
   display: flex;
@@ -128,13 +136,6 @@ ol {
   height: 19px;
   margin-right: 5px;
   border: 1px solid #fff;
-}
-
-.search-form__label {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  width: fit-content;
 }
 
 .search-form__checkbox-list {
