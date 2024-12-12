@@ -187,7 +187,7 @@ ol {
 }
 
 .button {
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, sans-serif;
   border: 1px solid currentColor;
   padding: 6px 73.5px;
   color: #fff;
@@ -249,13 +249,17 @@ ol {
 
 .content__video-card-title {
   text-transform: uppercase;
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
   color: #ffffff;
   margin-bottom: 6px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
 }
 
 .content__video-card-description {
