@@ -143,6 +143,12 @@ ol {
   align-items: center;
 }
 
+.search-form__checkbox-list {
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+}
+
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
   display: block;
 }
@@ -167,12 +173,6 @@ ol {
 
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
-}
-
-.search-form__checkbox-list {
-  display: flex;
-  column-gap: 15px;
-  align-items: center;
 }
 
 .search-form__pseudo-checkbox {
