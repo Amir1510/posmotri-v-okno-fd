@@ -1,1 +1,1 @@
-https://github.com/Amir1510/posmotri_v_okno-fd
+https://github.com/Amir1510/posmotri-v-okno-fd
